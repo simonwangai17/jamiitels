@@ -5,7 +5,7 @@
 
 .main{
     width: 100%;
-    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(1.jpg);
+    background: linear-gradient(to top, rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(https://www.pexels.com/photo/gray-and-black-laptop-computer-265087/);
     background-position: center;
     background-size: cover;
     height: 100vh;
@@ -24,9 +24,9 @@
 }
 
 .logo{
-    color: baige;
+    color: #F5B836;
     font-size: 35px;
-    font-family: Arial;
+    font-family: sans-serif;
     padding-left: 20px;
     float: left;
     padding-top: 10px;
@@ -62,7 +62,7 @@ ul li a{
 }
 
 ul li a:hover{
-    color: brown;
+    color: #00B0A1;
 }
 
 .search{
@@ -161,7 +161,7 @@ ul li a:hover{
 }
 
 .content span{
-    color: #ff7200;
+    color: #F5B836;
     font-size: 65px
 }
 
@@ -216,7 +216,7 @@ ul li a:hover{
 .btnn{
     width: 240px;
     height: 40px;
-    background: #ff7200;
+    background: #F5B836;
     border: none;
     margin-top: 30px;
     font-size: 18px;
@@ -243,6 +243,7 @@ ul li a:hover{
 .form .link a{
     text-decoration: none;
     color: #ff7200;
+    color: #fff;
 }
 .liw{
     padding-top: 15px;
