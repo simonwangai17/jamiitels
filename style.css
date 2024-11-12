@@ -264,3 +264,99 @@ ul li a:hover{
 .icons ion-icon:hover{
     color: #ff7200;
 }
+
+/* Responsive Styles */
+@media (max-width: 1200px) {
+    .navbar, .content {
+        width: 100%;
+        padding: 0 20px;
+    }
+    
+    .menu ul li {
+        margin-left: 30px;
+    }
+    
+    .search {
+        margin-left: 0;
+        width: auto;
+    }
+    
+    .form {
+        left: auto;
+        transform: none;
+        margin: 20px auto;
+        width: 80%;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .menu ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .menu ul li {
+        margin: 10px 0;
+    }
+
+    .content h1 {
+        font-size: 36px;
+    }
+    
+    .content .par {
+        font-size: 14px;
+        line-height: 24px;
+        padding: 0 10px;
+    }
+    
+    .cn {
+        width: 140px;
+    }
+
+    .form {
+        width: 90%;
+        padding: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .main {
+        height: auto;
+        padding-bottom: 20px;
+    }
+
+    .logo {
+        font-size: 24px;
+        padding: 10px 0;
+    }
+
+    .content h1 {
+        font-size: 28px;
+    }
+
+    .content .par {
+        font-size: 13px;
+        padding: 0 5px;
+    }
+    
+    .form {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .form input,
+    .btnn {
+        width: 90%;
+    }
+
+    .icons ion-icon {
+        font-size: 24px;
+        padding: 10px;
+    }
+}
